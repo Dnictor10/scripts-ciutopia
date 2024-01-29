@@ -5,10 +5,9 @@ public class CambiarPantalla : MonoBehaviour
 {
     public string nombreDeLaEscenaAIntercambiar = "NombreDeTuOtraEscena";
 
-    // Este método se llamará cuando se haga clic en el botón asociado al script.
+  
     public void CambiarEscena()
     {
-        // Cargar la escena especificada.
         SceneManager.LoadScene(nombreDeLaEscenaAIntercambiar);
     }
 }
