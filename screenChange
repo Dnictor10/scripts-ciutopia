@@ -2,6 +2,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class CambiarPantalla : MonoBehaviour
+public void onClick()
 {
     public string nombreDeLaEscenaAIntercambiar = "NombreDeTuOtraEscena";
 
